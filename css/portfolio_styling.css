@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif, Tahoma;
+  --bg-primary: #ffcf56;
+  --bg-secondary: #fc6471;
+  --font-color-primary: #22577a;
+  --font-color-secondary: #22577a;
+  --backup-color: #eae8ff;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--bg-primary);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  padding: 0 50px;
+}
+
+.navbar h1 {
+  color: var(--bg-secondary);
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: var(--font-color-secondary);
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 30px;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li:hover a {
+  color: var(--bg-secondary);
+}
+
+.main {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* need an image container to help center the image i.e. div */
+.image-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+img {
+  width: 350px;
+  height: 450px;
+  border-radius: 10%;
+}
+
+.quote {
+  margin: 20px;
+  padding: 10px;
+  /* display: flex; */
+  align-content: center;
+  justify-content: center;
+
+}
+
+.quote p {
+  font-size: 20px;
+}
+
+.about-me {
+    margin: 40px;
+    padding: 20px;
+}
+
+.about-me h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-size: 35px;
+  color: var(--font-color-primary);
+}
+
+.about-me p {
+  color: var(--font-color-secondary);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.about-me a {
+  text-decoration: none;
+  color: var(--bg-secondary);
+  transition: color 0.3s ease;
+}
+
+.about-me :hover a {
+  color: var(--backup-color);
+}
+
+.progress {
+  margin: 100px;
+  padding: 20px;
+  background-color: var(--bg-secondary);
+  border-radius: 16px;
+}
+
+.progress h2 {
+  color: var(--font-color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.progress table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright-email{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.copyright-email p{
+    margin: 20px 10px;
+}
+
+.copyright-email a{
+    text-decoration: none;
+    list-style: none;
+    color: var(--bg-secondary);
+    transition: color 0.3s ease;
+}
+
+.copyright-email a:hover{
+    color: var(--backup-color);
+
+}

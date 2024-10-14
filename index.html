@@ -9,12 +9,12 @@
       type="image/x-icon"
       href="./assets/img/dev-to-logo-24.png"
     />
+    <link rel="stylesheet" href="./css/portfolio_styling.css" />
   </head>
-  
+
   <body>
-    <header>
+    <header class="navbar">
       <h1>Simon Chen Web Development</h1>
-      <img src="" alt="" />
       <nav>
         <ul>
           <li><a href="#">Home Page</a></li>
@@ -25,29 +25,25 @@
     </header>
 
     <main>
-      <img
-        src="./assets/img/1771F732-816D-4CE6-84BE-6552BE27E094_1_105_c.jpeg"
-        alt=""
-        width="350"
-        height="500"
-      />
-      <br>
-      <hr>
-      <br>
-      
-      <section>
-      <p style="margin-left: 500px">
-        "You might not reach the best best verison of youeself in this
-        lifetime, but a better one than you are right now."
-      </p>
-      <p style="margin-left: 1050px">- Master Shi Heng Yi</p>
-      </section>
-   
-      <br>
-      <hr>
-      <br>
+      <div class="image-holder">
+        <img
+          src="./assets/img/1771F732-816D-4CE6-84BE-6552BE27E094_1_105_c.jpeg"
+          alt="portfolio image"
+        />
+      </div>
 
       <section>
+        <div class="quote">
+          <p style="margin-left: 500px">
+            "You might not reach the best best verison of youeself in this
+            lifetime, but a better one than you are right now."
+          </p>
+          <p style="margin-left: 1050px">- Master Shi Heng Yi</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="about-me">
         <h2>About Me</h2>
         <p>
           Hola! My name is Simon Chen, an aspiring software engineer. Born in
@@ -63,13 +59,11 @@
           or more about my professional career, click here
           <a href="./html/my_resume.html">Resume</a>
         </p>
-    </section>
-
-      <br>
-      <hr>
-      <br>
+        </div>
+      </section>
 
       <section>
+        <div class="progress">
         <h2>Progress BS CS Completion</h2>
         <table>
           <tr>
@@ -86,18 +80,15 @@
             </td>
           </tr>
         </table>
+        </div>
       </section>
-
     </main>
 
-    <br>
-    <hr>
-    <br>
-
     <footer>
+      <div class="copyright-email">
       <p>&copy; 2024 Scimon Chen. All Rights Reserved</p>
       <p>Contact me at<a href="schen4@gmail.com"> schen4@oakland.edu</a></p>
+      </div>
     </footer>
-
   </body>
 </html>

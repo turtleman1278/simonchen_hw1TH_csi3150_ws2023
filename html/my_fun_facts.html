@@ -9,9 +9,11 @@
       type="image/x-icon"
       href="../assets/img/dev-to-logo-24.png"
     />
+    <link rel="stylesheet" href="../css/fun_fact_styling.css">
   </head>
+
   <body>
-    <header>
+    <header class="navbar">
       <h1>Some Fun Facts About Me</h1>
 
       <nav>
@@ -25,14 +27,19 @@
 
     <main>
       <section>
-        <h2>Favorite Book</h2>
-          <h3>Principles By Ray Dalio</h3>
-          <img
-            src="../assets/img/alejandro-barba-ZMy3Jr27xMQ-unsplash.jpg"
-            alt=""
-            height="500px"
-            width="500px"
+        <div class="book-title"><h2>Favorite Book</h2></div>
+        <div class="book-title"><h3>Principles By Ray Dalio</h3></div>
+        <div class="book">
+        <div class="book-img">
+        <img
+          src="../assets/img/alejandro-barba-ZMy3Jr27xMQ-unsplash.jpg"
+          alt=""
+          height="500px"
+          width="500px"
           />
+          </div>
+
+          <div class="book-description">
           <p>
             My favorite book of intrest so far is Principles by Ray Dalio. Ray
             Dalio is a prominent leader in world econmics and finance. In this
@@ -42,18 +49,18 @@
           </p>
           <p>
             For more inforamtion or intrest in the book please click here
-            <a
-              href="https://www.barnesandnoble.com/w/principles-ray-dalio/1125955035?ean=9781501124020&aug=1"
-              >Principles, Ray Dalio</a
-            >
+            <a href="https://www.barnesandnoble.com/w/principles-ray-dalio/1125955035?ean=9781501124020&aug=1"
+              >Principles, Ray Dalio</a>
           </p>
-    
+          </div>
+          </div>
       </section>
 
       <section>
-        <h2>Favorite Song</h2>
-        <h3>Hollow be thy name by Iron Maiden</h3>
+        <div class="song-title"><h2>Favorite Song</h2></div>
+        <div class="song-name"><h3>Hollow be thy name by Iron Maiden</h3></div>
 
+        <div class="song-sample">
         <iframe
           width="560"
           height="315"
@@ -64,42 +71,42 @@
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
+        </div>
 
-        <p>
-          Youtube Music Video Link<a
-            href="https://www.youtube.com/watch?v=55ISbbSopXA&ab_channel=IronMaiden-Topic"
-          >
-            Click Here</a
-          >
-        </p>
+      <div class="song-link">
+        <p>Youtube Music Video Link<a href="https://www.youtube.com/watch?v=55ISbbSopXA&ab_channel=IronMaiden-Topic"> Click Here</a></p>
+      </div>
       </section>
 
       <section>
-        <h2>Favorite Movie/Show</h2>
-        <h3>Grand Tour Season 4</h3>
+        
+        <div class="show-title"><h2>Favorite Movie/Show</h2></div>
+        <div class="show-name"><h3>Grand Tour Season 4</h3></div>
+        <div class="show">
         <p>
           One of my favorite shows is the Grand Tour especailly season four,
           starring, Jeremy Clarkson, James May, and Richard Hammond. The trio go
           on some of the most incrediable adventures and completing challenges
-          which result in a comedy for all to enjoy and those who are nostalgic
-          from when they were on Top Gear.
+          which result in a comedy for all to enjoy and the feeling of nostalgia for those who
+          remember them from when they were on Top Gear.
         </p>
+        <div class="show-video-clip">
         <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/s8AwizkBarM?si=2d_ECNt6OkgfwIu2"
+        width="500" height="500"
+        src="https://www.youtube.com/embed/s8AwizkBarM?si=2d_ECNt6OkgfwIu2"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
+        </div>
+        </div>
       </section>
     </main>
 
     <footer>
       <p>&copy; 2024 Scimon Chen. All Rights Reserved</p>
       <p>Contact me at<a href="schen4@gmail.com"> schen4@oakland.edu</a></p>
-    </footer>
   </body>
 </html>

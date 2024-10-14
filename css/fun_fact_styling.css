@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif, Tahoma;
+  --bg-primary: #e9df00;
+  --bg-secondary: #87baab;
+  --font-color-primary: #e36397;
+  --font-color-secondary: #ffd1ba;
+  --font-color-tertiary: #114b5f;
+  --backup-color: #eae8ff;
+}
+
+
+body{
+    background-color: var(--font-color-tertiary);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10;
+    height: 25vh;
+}
+
+.navbar h1{
+    color: var(--font-color-primary);
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var( --bg-primary);
+  font-size: 16px;
+  margin-right: 25px;
+  transition: color 0.3s ease; 
+}
+
+.navbar ul li a:hover{
+    color: var(--bg-secondary);
+}
+
+.book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.book-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 5%;
+
+}
+
+.book-title h2{
+    margin-bottom: -10%;
+    font-size: xx-large;
+    color: var(--font-color-secondary);
+    /* background-color: var(--bg-primary); */
+    /* border-radius: 10%; */
+}
+.book-title h3{
+    color: var(--font-color-secondary);
+}
+
+.book-title{
+    margin-top: -5%;
+
+}
+
+.book-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5%;
+    padding: 5%;
+}
+
+.book-description{
+    padding: 2%;
+    font-size: 16px;
+    font-weight: 400;
+    color: var( --font-color-secondary);
+}
+
+.book-description a{
+    text-decoration: none;
+    color: var(--bg-primary);
+    transition: color 0.3s ease;
+    font-size: medium;
+}
+
+.book-description a:hover{
+    color: var(--bg-secondary);
+}
+
+.song-title{
+    margin-top: 10%;
+    padding: 0%;
+    font-size: x-large;
+    color: var(--font-color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-name{
+    margin-top: 5%;
+    color: var(--font-color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-sample{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-link{
+    margin: 5%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.song-link p{
+    color: var(--font-color-secondary);
+}
+
+.song-link a{
+    text-decoration: none;
+    color: var(--bg-primary);
+    transition: color 0.3s ease;
+}
+
+.song-link a:hover{
+    color: var(--bg-secondary);
+}
+
+.show-title{
+    margin-top: 10%;
+    padding: 0%;
+    font-size: x-large;
+    color: var(--font-color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-name{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: var(--font-color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show{
+    margin-top: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.show p{
+    padding: 5%;
+    color: var(--font-color-secondary);
+    font-size: medium;
+}
+
+.show .show-video-clip{
+    margin: 5%;
+    padding: 0%;
+}
+
+footer {
+  /* background-color: var(--bg-secondary); */
+  padding: 70px 50px 40px;
+  margin-top: 150px;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--font-color-secondary);
+}
+
+footer a {
+  color: var(--bg-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--font-color-primary);
+}
